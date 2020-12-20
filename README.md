@@ -29,7 +29,7 @@ Lastly, we created a line chart to help visualize the relationship between the d
 ### Challenges and Difficulties Encountered
 
 While working on this analysis I encountered a few challenges that required more attention. The first challenge I encountered was with the pivot chart on the "Theater Outcomes by Launch Date" worksheet. By creating my own "Years" column it caused the pivot table to have a "Years" and "Years2" field. I had to review the data within the filter to confirm I had selected the correct field. 
-The second problem I faced was making sure I used the correct comparison operators so that I included the the correct values for my goal-amount ranges on "Outcomes Based on Goals" worksheet. As seen in the section [Analysis of Outcomes Based on Goals] I used `>=` for the floor value and `<` for the cieling value.
+The second problem I faced was making sure I used the correct comparison operators so that I included the the correct values for my goal-amount ranges on "Outcomes Based on Goals" worksheet. As seen in the section [Analysis of Outcomes Based on Goals](https://github.com/BLTerrell/kickstarter-analysis/blob/main/README.md#analysis-of-outcomes-based-on-goals) I used `>=` for the floor value and `<` for the cieling value.
 The last problem I came across was that my initial counts were too high on the "Outcomes Based on Goals" worksheet because I forgot to include `COUNTIFS(Kickstarter!R2:R4115,"plays")`. I was able to fix this after comparing to the results given in the Deliverable Instructions.
 
 ## Results
